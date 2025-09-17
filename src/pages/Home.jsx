@@ -80,7 +80,7 @@ export default function Home() {
         <div className="w-full lg:w-2/3 space-y-6">
           {/* Filter Buttons */}
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-            {["All", "Easy", "Medium", "Hard", "Insane"].map((level) => {
+            {["All", "Easy", "Intermediate", "Hard", "Insane"].map((level) => {
               const lower = level.toLowerCase();
               const isActive = filter === lower;
 
